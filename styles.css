@@ -1,0 +1,138 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+
+
+
+.hero{
+    background-image: url("images/arch.jpeg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ade8f4;
+    height: 300px;
+    /*width: 600px;*/
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical centering */
+    align-items: center;     /* horizontal centering */
+    
+}
+
+
+h1,h2,h3,h4,h5{
+    text-align: center;
+
+}
+
+.hero h1{
+    background-color: #251F47;
+    
+    color: white;
+    padding: 4px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    border-radius: 4px;
+}
+
+.hero h2{
+    background-color: #404E7C;
+    
+    color: white;
+    padding: 4px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    font-size:large;
+    border-radius: 4px;
+}
+
+
+.activities-section{
+    text-align: center;
+    background-color: #F1FAEE;
+}
+
+.activities-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+
+    
+}
+
+.activities-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.activities-section h3 {
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.activities{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    
+}
+
+.activities p{
+    font-size: 14px;
+}
+.activities img{
+    width: 100px;
+}
+
+.activities:hover {
+    background-color: #A8DADC;
+    transform: translateY(-5px);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.guide img{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.guide {
+    width: 500px;
+    height: 250px;
+    margin: 30px auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    justify-content: space-around;
+    text-align: center;
+    background: #71B48D;
+    color: #490000;
+    border-bottom: 10px solid #404E7C;
+    border-radius: 15px;
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;*/
+    
+
+}
+
+
+
