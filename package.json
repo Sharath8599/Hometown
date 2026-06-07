@@ -1,9 +1,0 @@
-{
-    "scripts": {
-      "build": "remix vite:build"
-    },
-    "devDependencies": {
-      "remix": "^1.00.0",
-      "@remix-run/dev": "^1.00.0"
-    }
-  }
