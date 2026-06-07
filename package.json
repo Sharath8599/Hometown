@@ -1,14 +1,9 @@
 {
-    "name": "hometown",
-    
     "scripts": {
-      "start": "vite",
-      "dev": "vite",
-      "build": "remix vite:build",
-      "preview": "vite preview"
+      "build": "remix vite:build"
     },
-    "dependencies": {
-      "vite": "latest"
-    },
-    "devDependencies": {}
+    "devDependencies": {
+      "remix": "^1.XX.X",
+      "@remix-run/dev": "^1.XX.X"
+    }
   }
