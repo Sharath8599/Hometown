@@ -1,6 +1,6 @@
 {
-    "name": "Scrim-s04h5q2",
-    "description": "https://scrimba.com/frontend-path-c0j/~041",
+    "name": "hometown",
+    
     "scripts": {
       "start": "vite",
       "dev": "vite",
