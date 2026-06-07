@@ -3,7 +3,7 @@
       "build": "remix vite:build"
     },
     "devDependencies": {
-      "remix": "^1.XX.X",
-      "@remix-run/dev": "^1.XX.X"
+      "remix": "^1.00.0",
+      "@remix-run/dev": "^1.00.0"
     }
   }
